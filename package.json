@@ -1,0 +1,31 @@
+{
+  "name": "myexpo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://johnjones773art.github.io/json-editor-app",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "predeploy": "expo export:web",
+    "deploy": "gh-pages -d web-build"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "ajv": "^8.17.1",
+    "expo": "~53.0.20",
+    "expo-document-picker": "~13.1.6",
+    "expo-sharing": "^13.1.5",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "0.79.5",
+    "react-native-web": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.3.0"
+  },
+  "private": true
+}
